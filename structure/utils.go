@@ -1,4 +1,4 @@
-package blc
+package structure
 
 import (
 	"bytes"

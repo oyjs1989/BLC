@@ -1,4 +1,4 @@
-package blc
+package structure
 
 import (
 	"bytes"
@@ -25,7 +25,7 @@ func (block *Block) SetHash() {
 }
 
 
-func NewBlock(data string,height int64, prevBlockHash []byte) *Block{
+func NewBlock(data string,height int64, prevBlockHash []byte) *Block {
 	block := &Block{
 		height,
 		PrevBlockHash,
